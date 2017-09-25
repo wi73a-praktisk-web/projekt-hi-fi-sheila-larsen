@@ -1,0 +1,27 @@
+{
+  "name": "projekt-hi-fi-sheila-larsen",
+  "version": "1.0.0",
+  "description": "| PLAN        |            | PROGRESS |        |     \r | ------------|:----------:| --------:|--------:\r | Arbejdsplan |          |  \r | Layout: Udarbejdelse af designskitser og wireframes             \r | Opsæt HTML sider med navigation og dummy-data       \r |",
+  "main": "app.js",
+  "dependencies": {
+    "mysql2": "^1.4.2",
+    "restify": "^6.0.1",
+    "restify-cors-middleware": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi73a-praktisk-web/projekt-hi-fi-sheila-larsen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi73a-praktisk-web/projekt-hi-fi-sheila-larsen/issues"
+  },
+  "homepage": "https://github.com/wi73a-praktisk-web/projekt-hi-fi-sheila-larsen#readme"
+}

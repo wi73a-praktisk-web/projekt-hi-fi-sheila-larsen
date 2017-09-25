@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PRODUCT</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/stylesheet.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+
+<body>
+
+
+    <!---------------------------------------------NAV START---------------------------------------------->
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" title="Return to main page" href="index.html">HIFI</a>
+                <div class="col-md-8 col-xs-5">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li><a class="nav-a" title="Link to products page" href="products.html">PRODUCTS</a></li>
+                    <li><a class="nav-a" title="Link to contact page" href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!---------------------------------------------MAIN START---------------------------------------------->
+    <main>
+        <!-- MIN OPRINDELIGE KODE -v- -->
+
+        <!-- <div class="container">
+            <h2>Creek Classic CD player</h2>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 index-img kolonne">
+                    <img class="img-responsive" src="./img-hifi/cd_afspillere/creek_classic.jpg" />
+                    <h3>Creek Classic CD player</h3>
+                    <p>Something. Something else</p>
+                    <p>Price: <br /> 616 SP.</p>
+                </div>
+            </div>
+            <hr />
+            <h2>INFO</h2>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 index-img kolonne">
+                    <p>Decription, description, description, description, description, description, description, </p>
+                    <p>Decription, description, description, description, description, description, description, </p>
+                </div>
+            </div>
+
+        </div> -->
+
+
+
+
+        <!-- FRANKS KODE -->
+        <div class="container">
+
+            <div class="col-xs-12">
+                Navn: <input type="text" id="navn">
+            </div>
+
+            <div class="col-xs-12">
+                Type: <input type="text" id="type">
+            </div>
+
+            <div class="col-xs-12">
+                Pris: <input type="text" id="pris">
+            </div>
+
+            <div class="col-xs-12">
+                Billede: <input type="text" id="billede">
+            </div>
+
+            <button class="btn" id="gem">Gem</button>
+
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <select id="selecttype">
+        <option value="0">All...</option>
+        <option value="1">CD Afspillere</option>
+        <option value="2">DVD Afspillere</option>
+        <option value="3">Effektforstaerkere</option>
+        <option value="4">Forforstaerkere</option>
+        <option value="5">Hojtalere</option>
+    </select>
+                </div>
+
+            </div>
+
+            <div id="content"></div>
+
+
+        </div>
+
+
+    </main>
+    <!---------------------------------------------FOOTER START---------------------------------------------->
+
+
+    <footer>
+        <div class="container">
+            <div class="row top-footer">
+                <div class="col-lg-4 col-xs-4">
+
+                    <a href="#" class="mail" title="Write to us">HIFI@gmail.dk</a>
+                </div>
+                <div class="col-lg-2 col-lg-offset-6 col-xs-12 icons">
+                    <a href=""> <i class="fa fa-facebook-square fa-2x" title="Link to our Facebook page"></i></a>
+                    <a href=""> <i class="fa fa-instagram fa-2x" title="Link to our Instagram page"></i></a>
+                    <a href=""> <i class="fa fa-pinterest-square fa-2x" title="Link to our Pinterest page"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 bottom-footer">
+
+                    <div class="col-md-4">
+                        <p class="muted">© 2017 HIFI Shop. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="./js/JavaScript.js"></script>
+</body>
+
+</html>

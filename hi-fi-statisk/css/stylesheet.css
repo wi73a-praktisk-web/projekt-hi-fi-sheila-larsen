@@ -1,0 +1,151 @@
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+    letter-spacing: 6px;
+    font-family: 'basic title font';
+    font-weight: 600;
+    color: #0d0d0d;
+    font-size: 14px;
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: #b6c6cb;
+    }
+
+.navbar-brand {
+    letter-spacing: 9px;
+    font-family: 'basic title font';
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 17px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+
+.navbar-form {
+    border: 0px;
+    padding: 0;
+}
+
+/*MAIN START*/
+main {
+    margin-top: 50px;
+}
+
+    main h2 {
+        font-family: 'Open Sans';
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        margin-bottom: 30px;
+    }
+
+    main h3 {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 700;
+        color: #2e2cbe;
+        letter-spacing: 1px;
+        
+    }
+
+    main p {
+        font-family: 'Open Sans';
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+.index-img {
+    color: #535151;
+    margin-top: 15px;
+}
+
+
+
+/*MAIN SLUT*/
+
+
+
+/*FOOTER START*/
+
+footer {
+    margin-top: 10px;
+}
+
+.top-footer {
+    background-color: #cacffa;
+    margin-top: 50px;
+}
+
+.bottom-footer {
+}
+
+
+.icons {
+    margin-top: 10px;
+    background-color: #e9ecf2;
+    border-bottom: 1px solid #535151;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.fa-instagram {
+    color: #a446b8;
+}
+
+
+.fa-facebook-square {
+    color: #3f5e9f;
+}
+
+
+.fa-pinterest-square {
+    color: #fa3030;
+}
+
+
+.mail {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #5883de;
+    letter-spacing: 5px;
+    margin-left: 11%;
+}
+
+
+
+
+
+
+
+
+/*´CONTACT*/
+
+#kontakt-formular {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    letter-spacing: 7px;
+    margin-top: 40px;
+}
+
+
+.contact-input {
+    height: 40px;
+    margin: 15px;
+}
+
+
+.btn {
+    background-color: #b6c6cb;
+    color: #000;
+    font-family: 'Open Sans';
+}
